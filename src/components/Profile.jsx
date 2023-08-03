@@ -7,16 +7,16 @@ import bullet from "../assets/Follow Me/Bullet Points.svg";
 
 function Profile() {
   return (
-    <body className="mt-20">
-      <div className="flex justify-evenly items-center">
+    <body className="pt-20 bg-[#FAF4F2]">
+      <div className="flex justify-around items-center">
         <div className="flex flex-col">
           <div>
-            <p className="text-[24px]">Hi!</p>
+            <p className="text-[24px] font-normal">Hi!</p>
             <p className="text-[40px] font-semibold mt-4">
               I'm Kittiwat Choocheep. <br /> a Full Stack Developer.
             </p>
           </div>
-          <div className="text-[18px] mt-11">
+          <div className="text-[18px] font-normal mt-11">
             <p>
               Frontend developer based in tehran, Iran. <br />
               I am coding with a clean and beautiful problem <br />
@@ -24,7 +24,9 @@ function Profile() {
             </p>
           </div>
           <div className="flex items-center space-x-8 mt-6">
-            <p className="text-[18px] text-[#222222] opacity-50">Follow me</p>
+            <p className="text-[18px] text-[#222222] opacity-50 font-normal">
+              Follow me
+            </p>
             <div className="flex items-center space-x-3">
               <img src={facebookIcon} />
               <img src={twitterIcon} />
@@ -36,7 +38,7 @@ function Profile() {
             <button className="bg-[#FF2950] text-white text-[18px] font-medium py-3 px-4 border rounded-lg">
               Send Request
             </button>
-            <button className="bg-white text-[#222222] opacity-50 text-[18px] font-medium py-3 px-4 border border-[#FF9B70] rounded-lg">
+            <button className="bg-white text-[#222222] opacity-50 text-[18px] font-medium py-3 px-4 border-2 border-[#FF9B70] rounded-lg">
               Download CV
             </button>
           </div>
@@ -47,7 +49,7 @@ function Profile() {
             className="w-[406px] h-[406px] object-cover object-top rounded-full z-50 absolute"
           />
           <img src={bullet} className="absolute top-0 -right-10 z-0" />
-          <img src={bullet} className="absolute bottom-0 -left-2 z-20" />
+          <img src={bullet} className="absolute -bottom-5 -left-2 z-20" />
         </div>
       </div>
     </body>
