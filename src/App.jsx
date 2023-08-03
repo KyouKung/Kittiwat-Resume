@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Profile />
       <Why />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Footer />
     </>
   );

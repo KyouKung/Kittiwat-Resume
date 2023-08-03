@@ -5,8 +5,8 @@ import Client from "../assets/Why/Group 242.svg";
 
 function Why() {
   return (
-    <div className="bg-[#FAF4F2]">
-      <div className="flex flex-col justify-center items-center pt-20">
+    <div className="bg-[#FAF4F2] font-poppins">
+      <div className="flex flex-col justify-center items-center pt-20 ">
         <p className="text-[#222222] text-[48px] font-semibold">Why Hire Me?</p>
       </div>
       <div className="flex flex-row justify-evenly mt-20">
