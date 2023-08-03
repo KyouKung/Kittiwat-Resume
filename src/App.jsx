@@ -1,13 +1,17 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Body from "./components/Body/Body";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+import Footer from "./components/Footer";
+import Why from "./components/Why";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <>
       <Header />
-      <Body />
+      <Profile />
+      <Why />
+      <Portfolio />
       <Footer />
     </>
   );
